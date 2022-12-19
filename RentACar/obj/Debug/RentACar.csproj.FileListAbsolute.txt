@@ -1,0 +1,16 @@
+C:\Users\eliah\source\repos\RentACar\RentACar\bin\Debug\RentACar.exe.config
+C:\Users\eliah\source\repos\RentACar\RentACar\bin\Debug\RentACar.exe
+C:\Users\eliah\source\repos\RentACar\RentACar\bin\Debug\RentACar.pdb
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\RentACar.csproj.AssemblyReference.cache
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\RentACar.csproj.SuggestedBindingRedirects.cache
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\MainWindow.g.cs
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\App.g.cs
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\RentACar_MarkupCompile.cache
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\RentACar_MarkupCompile.lref
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\MainWindow.baml
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\RentACar.g.resources
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\RentACar.Properties.Resources.resources
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\RentACar.csproj.GenerateResource.cache
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\RentACar.csproj.CoreCompileInputs.cache
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\RentACar.exe
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\RentACar.pdb
