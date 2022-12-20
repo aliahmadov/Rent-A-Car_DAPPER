@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\eliah\source\repos\RentACar\RentACar\App.xaml
-11819392511
+6138757001
 
-22160730402
-15-1100472816
-Domain\Views\MainWindow.xaml;
+331998355753
+161027242869
+Domain\Views\MainWindow.xaml;Domain\Views\UserControls\AdminHomeUC.xaml;Domain\Views\UserControls\AdminShowCarsUC.xaml;Domain\Views\UserControls\AdminUpdateCarsUC.xaml;Domain\Views\UserControls\RentHomeUC.xaml;Domain\Views\Windows\ShowCarDetailsWindow.xaml;
 
-False
+True
 

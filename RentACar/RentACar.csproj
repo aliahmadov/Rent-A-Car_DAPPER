@@ -38,6 +38,9 @@
     <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Dapper.2.0.123\lib\net461\Dapper.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Xaml.Behaviors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Xaml.Behaviors.Wpf.1.1.39\lib\net45\Microsoft.Xaml.Behaviors.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
@@ -74,18 +77,62 @@
     <Compile Include="DataAccess\Abstractions\IRepository.cs" />
     <Compile Include="DataAccess\Abstractions\IUnitOfWork.cs" />
     <Compile Include="DataAccess\Concretes\AdminRepository.cs" />
+    <Compile Include="DataAccess\Concretes\CarRepository.cs" />
+    <Compile Include="DataAccess\Concretes\ClientRepository.cs" />
+    <Compile Include="DataAccess\Concretes\RentRepository.cs" />
+    <Compile Include="DataAccess\Concretes\UnitOfWork.cs" />
     <Compile Include="Domain\Commands\RelayCommand.cs" />
     <Compile Include="DataAccess\Entities\Admin.cs" />
     <Compile Include="DataAccess\Entities\Car.cs" />
     <Compile Include="DataAccess\Entities\Client.cs" />
     <Compile Include="DataAccess\Entities\Rent.cs" />
+    <Compile Include="Domain\ViewModels\AdminHomeViewModel.cs" />
+    <Compile Include="Domain\ViewModels\AdminModifyCarsViewModel.cs" />
+    <Compile Include="Domain\ViewModels\AdminShowCarsViewModel.cs" />
     <Compile Include="Domain\ViewModels\BaseViewModel.cs" />
+    <Compile Include="Domain\ViewModels\RentHomeViewModel.cs" />
+    <Compile Include="Domain\ViewModels\ShowCarDetailsViewModel.cs" />
     <Compile Include="Domain\Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Domain\Views\UserControls\AdminHomeUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Domain\Views\UserControls\AdminShowCarsUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Domain\Views\UserControls\AdminUpdateCarsUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Domain\Views\UserControls\RentHomeUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Domain\Views\Windows\ShowCarDetailsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Views\UserControls\AdminHomeUC.xaml.cs">
+      <DependentUpon>AdminHomeUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Domain\Views\UserControls\AdminShowCarsUC.xaml.cs">
+      <DependentUpon>AdminShowCarsUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Domain\Views\UserControls\AdminUpdateCarsUC.xaml.cs">
+      <DependentUpon>AdminUpdateCarsUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Domain\Views\UserControls\RentHomeUC.xaml.cs">
+      <DependentUpon>RentHomeUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Domain\Views\Windows\ShowCarDetailsWindow.xaml.cs">
+      <DependentUpon>ShowCarDetailsWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -112,8 +159,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Images\" />
+    <Resource Include="Images\leftarrow.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

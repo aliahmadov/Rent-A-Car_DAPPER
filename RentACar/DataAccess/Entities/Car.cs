@@ -9,7 +9,7 @@ namespace RentACar.Domain.Entities
     public class Car
     {
         public int Id { get; set; }
-        public string ImagePath { get; set; }
+        public string ImagePath { get; set;}
         public string Brand { get; set; }
 
         public bool IsNew { get; set; }

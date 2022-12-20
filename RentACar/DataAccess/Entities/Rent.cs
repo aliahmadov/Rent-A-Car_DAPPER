@@ -17,5 +17,8 @@ namespace RentACar.Domain.Entities
         public int CarId { get; set; }
 
         public virtual  Car Car { get; set; }
+
+        public DateTime RentStartDate { get; set; }
+        public DateTime RentEndDate { get; set; }
     }
 }
