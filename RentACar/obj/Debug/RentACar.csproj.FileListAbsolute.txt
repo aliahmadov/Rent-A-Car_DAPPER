@@ -30,3 +30,11 @@ C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\UserControl
 C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\UserControls\AdminShowCarsUC.baml
 C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\ShowCarDetailsWindow.g.cs
 C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\ShowCarDetailsWindow.baml
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\InsertWindow.g.cs
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\InsertWindow.baml
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\DeleteWindow.g.cs
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\DeleteWindow.baml
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\UpdateWindow.g.cs
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\UpdateWindow.baml
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\EnterIDWindow.g.cs
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\EnterIDWindow.baml

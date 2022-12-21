@@ -28,6 +28,7 @@
         <Border BorderBrush="Black" BorderThickness="2,3,2,2"
                 HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,85,0,0">
             <StackPanel >
+
                 <ListView  Height="250"
                 ItemsSource="{Binding AllCars}" SelectedItem="{Binding SelectedCar}"
                 Padding="10" Background="White" BorderBrush="Black" BorderThickness="5,0,5,5">

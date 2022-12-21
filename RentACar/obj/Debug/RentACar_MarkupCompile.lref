@@ -6,4 +6,8 @@ FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\UserControls\AdminSh
 FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\UserControls\AdminUpdateCarsUC.xaml;;
 FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\UserControls\RentHomeUC.xaml;;
 FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\ShowCarDetailsWindow.xaml;;
+FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\InsertWindow.xaml;;
+FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\DeleteWindow.xaml;;
+FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\UpdateWindow.xaml;;
+FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\EnterIDWindow.xaml;;
 

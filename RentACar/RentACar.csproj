@@ -90,8 +90,12 @@
     <Compile Include="Domain\ViewModels\AdminModifyCarsViewModel.cs" />
     <Compile Include="Domain\ViewModels\AdminShowCarsViewModel.cs" />
     <Compile Include="Domain\ViewModels\BaseViewModel.cs" />
+    <Compile Include="Domain\ViewModels\DeleteWindowViewModel.cs" />
+    <Compile Include="Domain\ViewModels\EnterIdViewModel.cs" />
+    <Compile Include="Domain\ViewModels\InsertWindowViewModel.cs" />
     <Compile Include="Domain\ViewModels\RentHomeViewModel.cs" />
     <Compile Include="Domain\ViewModels\ShowCarDetailsViewModel.cs" />
+    <Compile Include="Domain\ViewModels\UpdateWindowViewModel.cs" />
     <Compile Include="Domain\Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -112,7 +116,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Domain\Views\Windows\DeleteWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Domain\Views\Windows\EnterIDWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Domain\Views\Windows\InsertWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Domain\Views\Windows\ShowCarDetailsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Domain\Views\Windows\UpdateWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -130,8 +150,20 @@
     <Compile Include="Domain\Views\UserControls\RentHomeUC.xaml.cs">
       <DependentUpon>RentHomeUC.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Domain\Views\Windows\DeleteWindow.xaml.cs">
+      <DependentUpon>DeleteWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Domain\Views\Windows\EnterIDWindow.xaml.cs">
+      <DependentUpon>EnterIDWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Domain\Views\Windows\InsertWindow.xaml.cs">
+      <DependentUpon>InsertWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Domain\Views\Windows\ShowCarDetailsWindow.xaml.cs">
       <DependentUpon>ShowCarDetailsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Domain\Views\Windows\UpdateWindow.xaml.cs">
+      <DependentUpon>UpdateWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

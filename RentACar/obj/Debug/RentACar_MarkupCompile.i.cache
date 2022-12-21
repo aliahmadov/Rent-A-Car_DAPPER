@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\eliah\source\repos\RentACar\RentACar\App.xaml
-6138757001
+10-1650124717
 
-331998355753
+41960796001
 161027242869
-Domain\Views\MainWindow.xaml;Domain\Views\UserControls\AdminHomeUC.xaml;Domain\Views\UserControls\AdminShowCarsUC.xaml;Domain\Views\UserControls\AdminUpdateCarsUC.xaml;Domain\Views\UserControls\RentHomeUC.xaml;Domain\Views\Windows\ShowCarDetailsWindow.xaml;
+Domain\Views\MainWindow.xaml;Domain\Views\UserControls\AdminHomeUC.xaml;Domain\Views\UserControls\AdminShowCarsUC.xaml;Domain\Views\UserControls\AdminUpdateCarsUC.xaml;Domain\Views\UserControls\RentHomeUC.xaml;Domain\Views\Windows\DeleteWindow.xaml;Domain\Views\Windows\EnterIDWindow.xaml;Domain\Views\Windows\InsertWindow.xaml;Domain\Views\Windows\ShowCarDetailsWindow.xaml;Domain\Views\Windows\UpdateWindow.xaml;
 
 True
 
