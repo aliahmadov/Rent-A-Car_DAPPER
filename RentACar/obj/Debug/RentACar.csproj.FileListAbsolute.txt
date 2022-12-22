@@ -44,3 +44,11 @@ C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\UserControl
 C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\UserControls\UserShowCarUC.baml
 C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\UserOrderWindow.g.cs
 C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\UserOrderWindow.baml
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\ValidationWindow.g.cs
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\ValidationWindow.baml
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\UserControls\UserRentHomeUC.g.cs
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\UserControls\UserRentHomeUC.baml
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\UserControls\UserRentStatusUC.g.cs
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\StatusWindow.g.cs
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\UserControls\UserRentStatusUC.baml
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\StatusWindow.baml

@@ -24,12 +24,12 @@
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <StackPanel Orientation="Horizontal">
                 <Label Margin="5" FontSize="20">Email</Label>
-                <TextBox Margin="50,5,5,5" Width="200" FontSize="20"></TextBox>
+                <TextBox Margin="50,5,5,5" Width="220" FontSize="16" Text="{Binding Email}"></TextBox>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal">
                 <Label Margin="5" FontSize="20">Day Count</Label>
-                <TextBox Margin="5" Width="200" FontSize="20"  Text="{Binding DayCount}"></TextBox>
+                <TextBox Margin="5" Width="50" FontSize="20" TextAlignment="Center" Text="{Binding DayCount}"></TextBox>
             </StackPanel>
 
             <StackPanel Margin="0,15,0,0" Orientation="Horizontal">

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\eliah\source\repos\RentACar\RentACar\App.xaml
-13-439749286
+172014003004
 
-47-1883821135
+56-1674337853
 161027242869
-Domain\Views\MainWindow.xaml;Domain\Views\UserControls\AdminHomeUC.xaml;Domain\Views\UserControls\AdminShowCarsUC.xaml;Domain\Views\UserControls\AdminUpdateCarsUC.xaml;Domain\Views\UserControls\RentHomeUC.xaml;Domain\Views\UserControls\UserDisplayAllCarsUC.xaml;Domain\Views\UserControls\UserShowCarUC.xaml;Domain\Views\Windows\DeleteWindow.xaml;Domain\Views\Windows\EnterIDWindow.xaml;Domain\Views\Windows\InsertWindow.xaml;Domain\Views\Windows\ShowCarDetailsWindow.xaml;Domain\Views\Windows\UpdateWindow.xaml;Domain\Views\Windows\UserOrderWindow.xaml;
+Domain\Views\MainWindow.xaml;Domain\Views\UserControls\AdminHomeUC.xaml;Domain\Views\UserControls\AdminShowCarsUC.xaml;Domain\Views\UserControls\AdminUpdateCarsUC.xaml;Domain\Views\UserControls\RentHomeUC.xaml;Domain\Views\UserControls\UserDisplayAllCarsUC.xaml;Domain\Views\UserControls\UserRentHomeUC.xaml;Domain\Views\UserControls\UserRentStatusUC.xaml;Domain\Views\UserControls\UserShowCarUC.xaml;Domain\Views\Windows\DeleteWindow.xaml;Domain\Views\Windows\EnterIDWindow.xaml;Domain\Views\Windows\InsertWindow.xaml;Domain\Views\Windows\ShowCarDetailsWindow.xaml;Domain\Views\Windows\StatusWindow.xaml;Domain\Views\Windows\UpdateWindow.xaml;Domain\Views\Windows\UserOrderWindow.xaml;Domain\Views\Windows\ValidationWindow.xaml;
 
 True
 

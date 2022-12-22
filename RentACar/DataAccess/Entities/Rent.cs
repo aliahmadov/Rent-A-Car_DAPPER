@@ -10,15 +10,10 @@ namespace RentACar.Domain.Entities
     {
         public int Id { get; set; }
 
-        public int ClientId { get; set; }
-
-        public virtual Client Client { get; set; }
-
         public int CarId { get; set; }
-
         public virtual  Car Car { get; set; }
-
         public DateTime RentStartDate { get; set; }
         public DateTime RentEndDate { get; set; }
+        public string RentKey { get; set; }
     }
 }

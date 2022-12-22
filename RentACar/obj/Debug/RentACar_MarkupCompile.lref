@@ -5,12 +5,16 @@ FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\UserControls\AdminHo
 FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\UserControls\AdminShowCarsUC.xaml;;
 FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\UserControls\AdminUpdateCarsUC.xaml;;
 FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\UserControls\RentHomeUC.xaml;;
-FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\ShowCarDetailsWindow.xaml;;
-FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\InsertWindow.xaml;;
-FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\DeleteWindow.xaml;;
-FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\UpdateWindow.xaml;;
-FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\EnterIDWindow.xaml;;
 FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\UserControls\UserDisplayAllCarsUC.xaml;;
+FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\UserControls\UserRentHomeUC.xaml;;
+FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\UserControls\UserRentStatusUC.xaml;;
 FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\UserControls\UserShowCarUC.xaml;;
+FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\DeleteWindow.xaml;;
+FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\EnterIDWindow.xaml;;
+FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\InsertWindow.xaml;;
+FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\ShowCarDetailsWindow.xaml;;
+FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\StatusWindow.xaml;;
+FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\UpdateWindow.xaml;;
 FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\UserOrderWindow.xaml;;
+FC:\Users\eliah\source\repos\RentACar\RentACar\Domain\Views\Windows\ValidationWindow.xaml;;
 

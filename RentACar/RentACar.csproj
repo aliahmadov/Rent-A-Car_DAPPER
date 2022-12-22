@@ -95,10 +95,14 @@
     <Compile Include="Domain\ViewModels\InsertWindowViewModel.cs" />
     <Compile Include="Domain\ViewModels\RentHomeViewModel.cs" />
     <Compile Include="Domain\ViewModels\ShowCarDetailsViewModel.cs" />
+    <Compile Include="Domain\ViewModels\StatusWindowViewModel.cs" />
     <Compile Include="Domain\ViewModels\UpdateWindowViewModel.cs" />
     <Compile Include="Domain\ViewModels\UserDisplayAllCarsViewModel.cs" />
     <Compile Include="Domain\ViewModels\UserOrderViewModel.cs" />
+    <Compile Include="Domain\ViewModels\UserRentHomeViewModel.cs" />
+    <Compile Include="Domain\ViewModels\UserRentStatusViewModel.cs" />
     <Compile Include="Domain\ViewModels\UserShowCarUCViewModel.cs" />
+    <Compile Include="Domain\ViewModels\ValidateWindowViewModel.cs" />
     <Compile Include="Domain\Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -123,6 +127,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Domain\Views\UserControls\UserRentHomeUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Domain\Views\UserControls\UserRentStatusUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Domain\Views\UserControls\UserShowCarUC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -143,11 +155,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Domain\Views\Windows\StatusWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Domain\Views\Windows\UpdateWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Domain\Views\Windows\UserOrderWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Domain\Views\Windows\ValidationWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -168,6 +188,12 @@
     <Compile Include="Domain\Views\UserControls\UserDisplayAllCarsUC.xaml.cs">
       <DependentUpon>UserDisplayAllCarsUC.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Domain\Views\UserControls\UserRentHomeUC.xaml.cs">
+      <DependentUpon>UserRentHomeUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Domain\Views\UserControls\UserRentStatusUC.xaml.cs">
+      <DependentUpon>UserRentStatusUC.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Domain\Views\UserControls\UserShowCarUC.xaml.cs">
       <DependentUpon>UserShowCarUC.xaml</DependentUpon>
     </Compile>
@@ -183,12 +209,19 @@
     <Compile Include="Domain\Views\Windows\ShowCarDetailsWindow.xaml.cs">
       <DependentUpon>ShowCarDetailsWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Domain\Views\Windows\StatusWindow.xaml.cs">
+      <DependentUpon>StatusWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Domain\Views\Windows\UpdateWindow.xaml.cs">
       <DependentUpon>UpdateWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Domain\Views\Windows\UserOrderWindow.xaml.cs">
       <DependentUpon>UserOrderWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Domain\Views\Windows\ValidationWindow.xaml.cs">
+      <DependentUpon>ValidationWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\EmailHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
