@@ -38,3 +38,9 @@ C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\Upd
 C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\UpdateWindow.baml
 C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\EnterIDWindow.g.cs
 C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\EnterIDWindow.baml
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\UserControls\UserDisplayAllCarsUC.g.cs
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\UserControls\UserShowCarUC.g.cs
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\UserControls\UserDisplayAllCarsUC.baml
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\UserControls\UserShowCarUC.baml
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\UserOrderWindow.g.cs
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\UserOrderWindow.baml

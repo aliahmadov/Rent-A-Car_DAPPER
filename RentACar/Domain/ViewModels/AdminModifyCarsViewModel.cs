@@ -58,6 +58,11 @@ namespace RentACar.Domain.ViewModels
                     MessageBox.Show($"Car has been successfully updated with ID {enterVM.Id}");
 
                 }
+
+                else
+                {
+                    MessageBox.Show($"Car does not exist with ID {enterVM.Id}");
+                }
             });
 
             AddCommand = new RelayCommand(c =>

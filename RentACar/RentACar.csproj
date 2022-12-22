@@ -96,6 +96,9 @@
     <Compile Include="Domain\ViewModels\RentHomeViewModel.cs" />
     <Compile Include="Domain\ViewModels\ShowCarDetailsViewModel.cs" />
     <Compile Include="Domain\ViewModels\UpdateWindowViewModel.cs" />
+    <Compile Include="Domain\ViewModels\UserDisplayAllCarsViewModel.cs" />
+    <Compile Include="Domain\ViewModels\UserOrderViewModel.cs" />
+    <Compile Include="Domain\ViewModels\UserShowCarUCViewModel.cs" />
     <Compile Include="Domain\Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -113,6 +116,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Domain\Views\UserControls\RentHomeUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Domain\Views\UserControls\UserDisplayAllCarsUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Domain\Views\UserControls\UserShowCarUC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -136,6 +147,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Domain\Views\Windows\UserOrderWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Domain\Views\UserControls\AdminHomeUC.xaml.cs">
@@ -149,6 +164,12 @@
     </Compile>
     <Compile Include="Domain\Views\UserControls\RentHomeUC.xaml.cs">
       <DependentUpon>RentHomeUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Domain\Views\UserControls\UserDisplayAllCarsUC.xaml.cs">
+      <DependentUpon>UserDisplayAllCarsUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Domain\Views\UserControls\UserShowCarUC.xaml.cs">
+      <DependentUpon>UserShowCarUC.xaml</DependentUpon>
     </Compile>
     <Compile Include="Domain\Views\Windows\DeleteWindow.xaml.cs">
       <DependentUpon>DeleteWindow.xaml</DependentUpon>
@@ -164,6 +185,9 @@
     </Compile>
     <Compile Include="Domain\Views\Windows\UpdateWindow.xaml.cs">
       <DependentUpon>UpdateWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Domain\Views\Windows\UserOrderWindow.xaml.cs">
+      <DependentUpon>UserOrderWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -191,7 +215,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\camaroWhite.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\leftarrow.png" />
   </ItemGroup>
