@@ -48,7 +48,7 @@
             </Button>
 
             <Button Margin="10" Padding="35,5,35,5" FontSize="30" Background="Black"
-                    Foreground="White" FontWeight="DemiBold" >
+                    Foreground="White" FontWeight="DemiBold" Command="{Binding ShowRentsCommand}">
                 Show Rents
                 <Button.Resources>
                     <Style TargetType="Border">

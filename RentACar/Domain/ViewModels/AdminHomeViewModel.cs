@@ -43,7 +43,12 @@ namespace RentACar.Domain.ViewModels
 
             ShowRentsCommand = new RelayCommand(c =>
             {
+                var view = new AdminShowRentsUC();
+                var viewModel = new AdminShowRentsViewModel();
+                view.DataContext = viewModel;
 
+                App.MyGrid.Children.RemoveAt(0);
+                App.MyGrid.Children.Add(view);
             });
 
 

@@ -52,3 +52,5 @@ C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\UserControl
 C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\StatusWindow.g.cs
 C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\UserControls\UserRentStatusUC.baml
 C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\Windows\StatusWindow.baml
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\UserControls\AdminShowRentsUC.g.cs
+C:\Users\eliah\source\repos\RentACar\RentACar\obj\Debug\Domain\Views\UserControls\AdminShowRentsUC.baml

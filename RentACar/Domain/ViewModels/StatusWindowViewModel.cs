@@ -19,11 +19,16 @@ namespace RentACar.Domain.ViewModels
             set { text = value; OnPropertyChanged(); }
         }
 
+
+
+        public double Duration { get; set; }
+
+  
+
         public StatusWindowViewModel()
         {
-            Text = "AAA";
+         
         }
 
- 
     }
 }

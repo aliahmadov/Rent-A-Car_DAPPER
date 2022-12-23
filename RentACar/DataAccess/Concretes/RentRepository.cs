@@ -82,8 +82,8 @@ namespace RentACar.DataAccess.Concretes
                             rentKey = data.RentKey,
                             id = data.Id,
                             start = data.RentStartDate,
-                            end = data.RentEndDate
-                        });
+                            end = data.RentEndDate 
+                       });
             }
         }
     }

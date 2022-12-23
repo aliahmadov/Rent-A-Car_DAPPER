@@ -89,6 +89,7 @@
     <Compile Include="Domain\ViewModels\AdminHomeViewModel.cs" />
     <Compile Include="Domain\ViewModels\AdminModifyCarsViewModel.cs" />
     <Compile Include="Domain\ViewModels\AdminShowCarsViewModel.cs" />
+    <Compile Include="Domain\ViewModels\AdminShowRentsViewModel.cs" />
     <Compile Include="Domain\ViewModels\BaseViewModel.cs" />
     <Compile Include="Domain\ViewModels\DeleteWindowViewModel.cs" />
     <Compile Include="Domain\ViewModels\EnterIdViewModel.cs" />
@@ -112,6 +113,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Domain\Views\UserControls\AdminShowCarsUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Domain\Views\UserControls\AdminShowRentsUC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -178,6 +183,9 @@
     </Compile>
     <Compile Include="Domain\Views\UserControls\AdminShowCarsUC.xaml.cs">
       <DependentUpon>AdminShowCarsUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Domain\Views\UserControls\AdminShowRentsUC.xaml.cs">
+      <DependentUpon>AdminShowRentsUC.xaml</DependentUpon>
     </Compile>
     <Compile Include="Domain\Views\UserControls\AdminUpdateCarsUC.xaml.cs">
       <DependentUpon>AdminUpdateCarsUC.xaml</DependentUpon>
